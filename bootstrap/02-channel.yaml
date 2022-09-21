@@ -8,4 +8,4 @@ metadata:
   namespace: ztp-clusters
 spec:
   type: Git
-  pathname: 'https://github.com/kskels/ztp-lab.git'
+  pathname: 'https://github.com/mihirlele/ztp-lab.git'
