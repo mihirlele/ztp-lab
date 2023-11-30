@@ -3,9 +3,9 @@ apiVersion: agent-install.openshift.io/v1beta1
 kind: NMStateConfig
 metadata:
   name: ocp01-node01
-  namespace: ocp01-atx-kskels-com
+  namespace: ocp01-cluster
   labels:
-    cluster-name: ocp01
+    infraenvs.agent-install.openshift.io: ocp01-cluster
 spec:
   config:
     interfaces:
