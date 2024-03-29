@@ -42,7 +42,7 @@ metadata:
   name: ocp01-node02
   namespace: ocp01-atx-kskels-com
   labels:
-    cluster-name: ocp01
+    infraenvs.agent-install.openshift.io: ocp01-cluster
 spec:
   config:
     interfaces:
@@ -79,7 +79,7 @@ metadata:
   name: ocp01-node03
   namespace: ocp01-atx-kskels-com
   labels:
-    cluster-name: ocp01
+    infraenvs.agent-install.openshift.io: ocp01-cluster
 spec:
   config:
     interfaces:
